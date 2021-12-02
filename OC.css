@@ -1,0 +1,77 @@
+.organisers>div
+{
+    transition-duration: 0.5s;
+    color: white;
+    background-color: hsl(227, 30%, 20%);
+    border-radius: 15px;
+    font-size: 22px;
+    padding-left: 30px;
+    padding-top: 1px;
+    margin-bottom: 10px;
+}
+
+a
+{
+    color: white;
+    cursor: default;
+}
+
+.organisers>div:hover
+{
+    transition-duration: 0.5s;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.637);
+    transform: scale(1.03,1.03);
+}
+
+.organisers li:hover
+{
+    transform: translate(30px);
+    transition-duration: 1s;
+}
+
+.organisers li
+{
+    transition-duration: 1s;
+}
+
+/* #haha
+{
+    transition-duration: 8s;
+    color: #8cc63f;
+}
+
+#haha:hover
+{
+    transform: translate(1920px);
+    transition-duration: 4s;
+} */
+
+.organisers>div:hover
+{
+    z-index: 123;
+}
+
+.organisers h3
+{
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.organisers h5
+{
+    margin-bottom: -10px;
+}
+
+.organisers ul
+{
+    margin-left: 15px;
+    padding-bottom: 10px;
+    list-style-type: circle;
+}
+
+.organisers>div:nth-child(odd)
+{
+    background-color: var(--main-color);
+}

@@ -1,0 +1,77 @@
+main {
+  background-image: linear-gradient(var(--main-color), #fafafa);
+  margin-bottom: 80px;
+}
+
+.committee-container {
+  display: block;
+  margin-bottom: 10vh;
+  /*background-color: var(--main-color);
+  border-radius: 5px;*/
+}
+
+.committee-heading {
+  padding: 25px;
+  text-align: center;
+}
+
+.eb-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 25px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.card-image {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card-content {
+  background-color: #273043;
+  color: #fafafa;
+}
+
+@media (max-width: 910px) {
+  .card {
+    width: 200px;
+    margin: 17.5px;
+  }
+
+  .msg {
+    font-size: 16px;
+  }
+
+  #card-title {
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 450px) {
+  .card {
+    width: 135px;
+    margin: 10px;
+  }
+
+  .msg {
+    font-size: 14px;
+  }
+
+  #card-title {
+    font-size: 19px;
+  }
+
+  #vyas .msg {
+    font-size: 12px;
+  }
+
+  #vyas #card-title {
+    line-height: 1.3;
+  }
+}
